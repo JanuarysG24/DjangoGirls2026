@@ -1,0 +1,26 @@
+sVoy a comunicar asi, podras tener notas también ^^
+
+Lo que pasa es que con windows, normalmente el terminal viene con powershell.
+
+No es lo que queremos. Queremos "cmd" como terminal porque asi podemos utilizar entornos virtuales
+de python.
+
+Entonces para cambiar esto, debemos buscar en preferences > settings > terminal y cambiar el terminal.
+
+Ahora que es hecho, podemos cargar el entorno virtual desde VSCode. Para hacerlo, toca la tecla F1
+del teclado y busca la opcion "cambiar de interpreto Python". Una vez que encontraste el entorno virtual
+del espacio de trabajo, puedes cerrar el terminal y abrirlo de nuevo. El entorno virtual sera activado
+automaticamente.
+
+Eso!
+
+Ahora, podemos instalar de nuevo Django gracias a un archivo requirements.txt.
+
+(nunca anade un archivo adentro de .venv manualmente)
+
+Una vez hecho, puedes instalar las dependencias con el comando "pip install -r requirements.txt"
+vamos bien? Si muy bien :)s
+
+Ahora, podemos de nuevo iniciar a django a ver si este articulo te servira ?
+https://wbarillon.medium.com/how-to-really-start-from-scratch-with-django-227472d1eb39
+s
